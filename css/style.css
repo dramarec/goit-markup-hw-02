@@ -1,0 +1,55 @@
+/* цвет акцент #2196f3;*/
+/* цвет герой #FFFFFF;*/
+/* цвет фона подвал #2F303A; */
+/* цвет зогаловок текста #212121;*/
+/* вторичный цвет фона #F5F4FA;*/
+/* основной цвет текста #757575;*/
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #f5f4fa;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #fff;
+  color: #757575;
+}
+
+/* header */
+
+.list,
+ul {
+  list-style: none;
+}
+
+.logo,
+.site-nav a,
+.contacts a {
+  color: #212121;
+}
+
+.site-nav a:focus,
+.site-nav a:hover,
+.contacts a:focus,
+.contacts a:hover,
+.logo-item {
+  color: #2196f3;
+}
+
+/* hero */
+.hero-title {
+  color: ;
+}
+.hero .link {
+  color: ;
+}
+
+/* main */
+.section-title {
+  color: #212121;
+}
+
+.feature-list .title {
+  color: #212121;
+}
