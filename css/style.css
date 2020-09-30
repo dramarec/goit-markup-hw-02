@@ -32,6 +32,7 @@ ul {
 nav .logo,
 footer .logo {
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2; /* 31 */
   letter-spacing: 0.03em;
@@ -40,6 +41,7 @@ footer .logo {
 .logo,
 .site-nav a {
   color: var(--title-text-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1; /* 16 */
   letter-spacing: 0.02em;
@@ -48,6 +50,7 @@ footer .logo {
 
 .contacts-list a {
   color: currentColor;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1; /* 16 */
   letter-spacing: 0.02em;
@@ -82,6 +85,7 @@ footer .logo {
 .hero .link {
   color: var(--hero-color);
   background-color: var(--accent-color);
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-decoration: none;
 }
@@ -107,7 +111,7 @@ footer .logo {
 
 /* Чем мы занимаемся-section */
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2; /* 42 */
 }
@@ -151,7 +155,6 @@ footer .logo {
 
 /* примеры-examples */
 .examples .section-title {
-  font-weight: bold;
   font-size: 18px;
   line-height: 2; /* 36 */
 }
