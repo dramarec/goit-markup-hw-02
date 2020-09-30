@@ -18,24 +18,30 @@ body {
   color: var(--primary-text-color);
 }
 
-/* header */
-
 .list,
 ul {
   list-style: none;
 }
 
+/* header */
+
 .logo,
-.site-nav a,
-.contacts a {
+.site-nav a {
   color: var(--title-text-color);
+}
+.contacts-list a {
+  color: currentColor;
 }
 
 .site-nav a:focus,
 .site-nav a:hover,
-.contacts a:focus,
-.contacts a:hover,
+.contacts-list a:focus,
+.contacts-list a:hover,
 .logo-item {
+  color: var(--accent-color);
+}
+
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -44,7 +50,8 @@ ul {
   color: ;
 }
 .hero .link {
-  color: ;
+  color: var(--hero-color);
+  background-color: var(--accent-color);
 }
 
 /* main */
@@ -52,13 +59,24 @@ ul {
   color: var(--title-text-color);
 }
 
-.features-list .title {
+/* example */
+.features-list .section-title {
 }
 
-.comand-list .title {
+.comand-list .section-title {
 }
 
-.button {
+/* button  */
+.button button {
   color: var(--title-text-color);
   background-color: var(--second-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button button:hover,
+.button button:focus {
+  color: var(--hero-color);
+  background-color: var(--accent-color);
 }
