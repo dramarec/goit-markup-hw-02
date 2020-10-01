@@ -39,7 +39,8 @@ footer .logo {
 }
 
 .logo,
-.site-nav a {
+.site-nav a,
+.contacts-list a {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -50,11 +51,6 @@ footer .logo {
 
 .contacts-list a {
   color: currentColor;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1; /* 16 */
-  letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .logo-item,
